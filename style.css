@@ -1,20 +1,26 @@
 :root {
-    --coral: #F05D5E;
-    --teal: #0F7173;
-    --light: #E7ECEF;
-    --dark: #272932;
-    --camel: #D8A47F;
+  --coral: #f05d5e;
+  --teal: #0f7173;
+  --light: #e7ecef;
+  --dark: #272932;
+  --camel: #d8a47f;
 }
 
 body {
-    background-color: var(--light);
+  background-color: var(--light);
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .card {
-    padding: 10px;
-    margin: 10px;
+  border: 5px dashed #0f7173;
+  padding: 10px;
+  margin: 10px;
 }
 
 img {
-    width: 250px;
+  width: 250px;
 }
