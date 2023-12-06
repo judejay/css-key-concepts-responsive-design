@@ -19,11 +19,35 @@ h1 {
 }
 
 .card {
-  border: 0.33rem dashed #0f7173;
   padding: 0.65rem;
   margin: 0.65rem;
 }
 
 img {
   width: 15.6rem;
+}
+
+@media screen and (min-width: 700px) {
+  html {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #ipsum {
+    visibility: hidden;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--dark);
+    color: var(--light);
+  }
 }
